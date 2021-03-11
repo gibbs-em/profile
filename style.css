@@ -30,7 +30,7 @@ a:hover {
 
 .link-medium {
   background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
-  color: #636363;
+  color: #060606;
   font-weight: lighter;
   text-decoration: none;
   line-height: px
@@ -70,22 +70,24 @@ a:hover {
 .content {
   grid-column-start: 2;
   grid-column-end: 3;
-  height: 200px;
 }
 
 .first {
   grid-row-start: 2;
   grid-row-end: 3;
+  height: 200px;
 }
 
 .second {
   grid-row-start: 3;
   grid-row-end: 4;
+  height: 700px;
 }
 
 .third {
   grid-row-start: 4;
   grid-row-end: 5;
+  height: 200px;
 }
 
 .card {
