@@ -70,7 +70,6 @@ a:hover {
 .content {
   grid-column-start: 2;
   grid-column-end: 3;
-  height: 200px;
 }
 
 .first {
@@ -81,6 +80,7 @@ a:hover {
 .second {
   grid-row-start: 3;
   grid-row-end: 4;
+  height: 300px;
 }
 
 .third {
